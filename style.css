@@ -1,0 +1,312 @@
+body{
+    background-color: #ccc;
+    margin: 0px;
+}
+tbody{
+    padding-left: 50px;
+}
+#sidebar3b .box_border h2{
+    padding-top: 3px;
+}
+ .box_border.box3{
+    padding-top: 7px;
+    height: 30px !important;
+}
+table{
+    border: 1px solid greenyellow;
+    background-color: #fff;
+}
+td{ text-align: center;
+    border: 1px solid greenyellow;
+    padding: .5px 1.2px 0px 1.2px;
+}
+a{
+    color: #ff4600;
+    text-decoration: underline;
+}
+#wrapper{
+    width: 85%;
+    height: auto;
+    background: radial-gradient(circle, rgb(241, 234, 235) 0%, rgb(253, 220, 220) 100%);
+}
+#header_wrapper{
+    width: 100%;
+    height: 150px;
+    background-color: #fffffe;
+}
+#logo{
+    float: left;
+    height: 150px;
+}
+#marquee{
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: #f5d7d7be;
+    display: block;
+}
+#marquee marquee{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #851046;
+    font-size: 18px;
+    width: 98%;
+}
+#marquee span{
+    margin-left: 500px;
+}
+#sidebar1{
+    float: left;
+    width: 24.25%;
+    height: auto;
+    background-color: #FFF;
+    margin-top: 3px;
+    border-left: 9px solid #AADF00;
+    padding-bottom: 6px;
+}
+#sidebar1a .box{
+    width: 100%;
+    height: auto;
+    background-color: #f0f1eb;
+}
+#sidebar1b .box{
+    width: 100%;
+    height: 410px;
+    background-color: rgb(247, 232, 232);
+    border-radius: 25px;
+}
+#sidebar1b{
+    width: 200px;
+}
+#sidebar1bi .box{
+    width: 85%;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding-top: 2px;
+    border: 1px solid #c2bbbb;
+    margin: 1%;
+}
+#sidebar1bi a{
+    text-decoration: none;
+    padding: 10px 10px 10px;
+}
+#sidebar1bi a:hover{
+    text-decoration: blink;
+    text-emphasis: before;
+    color: #00BF00;
+}
+#sidebar1c .box{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(243, 220, 220);
+    margin-top: 3%;
+    border-radius: 25px;
+    padding-top: 1px;
+}
+#sidebar1d .box{
+    width: 202px;
+    height: 405px;
+    background-color: #fff;
+    border-top: 2px solid #fefffb;
+}
+#sidebar1e .box{
+    float: left;
+    width: 95px;
+    height: 95px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    transform: scale(1);
+    transition: all 1.2s;
+}
+#sidebar1e .box img{
+    width: 95px;
+    height: 95px;
+    display: block;
+}
+#sidebar1e .box:hover{
+    border-radius: 0px 0px 0px 0px;
+    transform: scale(1.6);
+    z-index: 2;
+    overflow: hidden;
+}
+#sidebar2{
+    float: left;
+    width: 48.9%;
+    height: 865px;
+    background-color: #fff;
+    margin-right: 0.1%;
+    border: 1px solid #AADF00;
+    margin-top: 3px;
+    padding-top: 5px;
+}
+#sidebar2a .box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+#sidebar2a .box_a{
+    width: 95%;
+    height: auto;
+    background-color: #fff;
+    text-align: left;
+    padding-left: 5px;
+    text-decoration: none;
+}
+#sidebar2a a:hover{
+    text-decoration: blink;
+    text-emphasis: before;
+    color: #00BF00;
+}
+#sidebar2a a{
+    text-decoration: none;
+    padding: 1px 1px 1px;
+}
+#sidebar3{
+    float: left;
+    width: 25%;
+    height: 867px;
+    background-color: #fff;
+    border-right: 9px solid #AADF00;
+    margin-top: 3px;
+    padding-top: 5px;
+}
+#sidebar3 .box_border{
+    width: 72%;
+    height: 35px;
+    background-color: #AADF00;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#sidebar3a .box{
+    width: 71%;
+    height: 200px;
+    background-color: #FFF;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #AADF00;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#sidebar3a .box marquee{
+    height: 180px;
+}
+#sidebar3b .box{
+    width: 90%;
+    height: 130px;
+    background-color: #fff;
+}
+#sidebar3c .box{
+    width: 85%;
+    height: 450px;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+#sidebar3c .box ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#sidebar3c .box li{
+    margin: 0;
+    padding: 0;
+}
+#sidebar3c .box li ul{
+    margin: 0px 0px;
+    padding-bottom: 30px;
+}
+#sidebar3c .box li li{
+    line-height: 35px;
+    border-bottom: 1px dashed #d1d1d1;
+    margin: 0px 30px;
+    border-left: none;
+}
+#sidebar3c .box li li span{
+    display: block;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 11px;
+    font-style: italic;
+}
+button.css3button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding: 4px 18px;
+    background: -moz-linear-gradient(top,#ffffff 0%,#AADF00 98%, #57461c 45%,
+                #755b1a 14%,#a38923);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
+                color-stop(0.98,#c9ab34),color-stop(0.45,#57461c),color-stop(0.14,#755b1a),
+                to(#a38923));
+    border-radius: 9px;
+    border: 0px solid #000000;
+    -moz-box-shadow: 1px 4px 0px rbga(000,000,000,1), inset 2px 6px 0px rbga(161,142,016,0.1);
+    -webkit-box-shadow: 1px 4px 0px rbga(000,000,000,1), inset 2px 6px 0px rbga(161,142,016,0.1);
+    box-shadow: 1px 4px 0px rbga(000,000,000,1), inset 2px 6px 0px rbga(161,142,016,0.1);
+    text-shadow: 0px -1px 3px rbga(255,255,255,0.8),0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+.css3button:hover{
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #AADF00;
+}
+.css3button:active{
+    border-top-color: #1b5c1f;
+    background: #1b5c1f;
+}
+#sidebar3c a{
+    padding-bottom: 3px;
+    float: left;
+    text-decoration: none; 
+}
+#sidebar3c a:hover{
+    text-decoration: blink;
+    text-emphasis: before;
+    color: #00BF00;
+}
+#End_bar{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #AADF00;
+}
+#End_bar ul{
+    padding-top: 7px;
+}
+#End_bar li{
+    display: inline;
+    margin: 7px;
+}
+#End_bar a{
+    text-decoration: none;
+    padding: 10px 10px 10px;
+}
+#End_bar a{
+    text-decoration: none;
+    padding: 10px 10px 10px;
+}
+#End_bar a:hover{
+    text-decoration: none;
+    text-emphasis: before;
+    color: #fff;
+}
+#footer{
+    float: left;
+    width: 100%;
+    height: 10px;
+    background-color: #AADF00;
+    font-size: 15px;
+}
+#middle_footer{
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: #AADF00;
+}
+#middle_footer span{
+    color: #ffffff;
+}

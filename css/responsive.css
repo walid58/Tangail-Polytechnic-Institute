@@ -1,0 +1,349 @@
+  
+    /*		Default Layout: 992px. 
+            Gutters: 24px.
+            Outer margins: 48px.
+            Leftover space for scrollbars @1024px: 32px.
+    -------------------------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8      9      10
+    px      68    160    252    344    436    528    620    712    804    896    */
+    
+    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+        #logo{
+            width: 100%;
+        }
+        #nav li{
+            width: 12.25%;
+        }
+        #sidebar1{
+            width: 24.1%;
+            padding-bottom: 7px;
+        }
+        #sidebar2{
+            width: 48.47%;
+        }
+        #sidebar3{
+            width: 25%;
+        }
+        #footer{
+            width: 99.7%;
+        } 
+    }
+
+    
+    
+    /*		Tablet Layout: 768px.
+            Gutters: 24px.
+            Outer margins: 28px.
+            Inherits styles from: Default Layout.
+    -----------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8
+    px      68    160    252    344    436    528    620    712    */
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        #logo{
+            width: 100%;
+        }
+        #nav li{
+            width: 12.1%;
+        }
+        #sidebar1{
+            width: 24%;
+            padding-bottom: 7px;
+            height: 950px;
+        }
+        #sidebar1b {
+            width: 160px;
+        }
+        #sidebar1bi .box {
+            width: 85%;
+            height: 33px;
+            display: block;
+        }
+        #sidebar1e .box img{
+            width: 75px;
+            height: 75px;
+        }
+        #sidebar1d .box {
+            width: 160px;
+        }
+        #sidebar1e .box {
+            width: 72px;
+            height: 75px;
+            margin: 0 auto;
+        }
+        #sidebar1c .box {
+            margin-top: 50%;
+            width: 160px;
+        }
+        #sidebar1e .box:hover{
+            transform: scale(1.5);
+        }
+        #sidebar2a .box img{
+            width: 100%;
+        }
+        #sidebar2{
+            width: 48.3%;
+            height: 950px;
+        }
+        #sidebar3{
+            width: 24.5%;
+            height: 950px;
+        }
+        #sidebar3 .box_border1{
+            height: 57px;
+        }
+        td{
+            padding: 0;
+        }
+        #sidebar1.tt1{
+            height: 1020px;
+        }
+        #sidebar2.tt1{
+            height: 1020px;
+        }
+        #sidebar3.tt1{
+            height: 1020px;
+        }
+    }
+    
+    
+    
+    /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    
+    @media only screen and (max-width: 767px) {
+          
+    
+    
+    }
+    /*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        #logo{
+            width: 100%;
+        }
+        #nav li{
+            width: 24%;
+        }
+        #nav li:hover ul{
+            width: 110px;
+        }
+        #sidebar1{
+            width: 100%;
+            padding-bottom: 7px;
+            /* height: 950px; */
+            border-left: none;
+        }
+        #sidebar1b {
+            width: 50%;
+            float: left;
+        }
+        #sidebar1bi .box {
+            width: 85%;
+            height: 25px;
+            display: block;
+        }
+        #sidebar1e .box img{
+            width: 75px;
+            height: 75px;
+        }
+        #sidebar1d{
+            width: 48%;
+            float: left;
+        }
+        #sidebar1d .box {
+           width: 80%;
+           height: 390px;
+        }
+        #sidebar1e .box {
+            width: 72px;
+            height: 75px;
+            margin: 0 auto;
+        }
+        #sidebar1c{
+            width: 46%;
+            float: left;
+        }
+        #sidebar1c .box {
+            /* margin-top: 50%; */
+            width: 160px;
+        }
+        #sidebar1e .box:hover{
+            transform: scale(1.5);
+        }
+        #sidebar2a .box img{
+            width: 100%;
+            /* height: 150px; */
+        }
+        #sidebar2{
+            width: 100%;
+            height: 880px;
+        }
+        #sidebar3{
+            width: 100%;
+            height: 770px;
+            border-right: 1px solid #AADF00;
+            border-left: 1px solid #AADF00;
+        }
+        #sidebar3 .box_border1{
+            height: 35px;
+        }
+        #sidebar3a .box {
+            width: 55%;
+        }
+        #sidebar3 .box_border {
+            width: 60%;
+        }
+        #sidebar3c .box {
+            width: 55%;
+            height: 250px;
+        }
+        td{
+            padding: 0.5px 1.2px 0px 1.2px;
+        }
+        #sidebar1.tt1{
+            height: auto;
+        }
+        #sidebar2.tt1{
+            height: 880px;
+        }
+        #sidebar3.tt1{
+            height: 800px;
+        }
+        #End_bar li{
+            margin: 0;
+        }
+    }
+    /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    @media only screen and (min-width: 410px) and (max-width: 479px) {
+        #logo{
+            width: 100%;
+        }
+        #nav li{
+            width: 23%;
+        }
+        #nav li:hover ul{
+            width: 110px;
+        }
+        #sidebar1{
+            width: 100%;
+            padding-bottom: 7px;
+            /* height: 950px; */
+            border-left: none;
+        }
+        #sidebar1b {
+            width: 50%;
+            float: left;
+        }
+        #sidebar1bi a{
+            padding: 0;
+        }
+        #sidebar1bi .box {
+            width: 85%;
+            height: 25px;
+            display: block;
+        }
+        #sidebar1e .box img{
+            width: 75px;
+            height: 75px;
+        }
+        #sidebar1d{
+            width: 48%;
+            float: left;
+        }
+        #sidebar1d .box {
+           width: 94%;
+           height: 390px;
+        }
+        #sidebar1e .box {
+            width: 72px;
+            height: 75px;
+            margin: 0 auto;
+        }
+        #sidebar1c{
+            width: 46%;
+            float: left;
+        }
+        #sidebar1c .box {
+            /* margin-top: 50%; */
+            width: 160px;
+        }
+        #sidebar1e .box:hover{
+            transform: scale(1.5);
+        }
+        #sidebar2a .box img{
+            width: 100%;
+            /* height: 150px; */
+        }
+        #sidebar2{
+            width: 100%;
+            height: 880px;
+        }
+        #sidebar3{
+            width: 100%;
+            height: 812px;
+            border-right: 1px solid #AADF00;
+            border-left: 1px solid #AADF00;
+        }
+        #sidebar3 .box_border1{
+            height: 35px;
+        }
+        #sidebar3a .box {
+            width: 55%;
+        }
+        #sidebar3 .box_border {
+            width: 60%;
+        }
+        #sidebar3c .box {
+            width: 55%;
+            height: 250px;
+        }
+        td{
+            padding: 0.5px 1.2px 0px 1.2px;
+        }
+        #sidebar1.tt1{
+            height: auto;
+        }
+        #sidebar2.tt1{
+            height: 880px;
+        }
+        #sidebar3.tt1{
+            height: 800px;
+        }
+        #End_bar li{
+            margin: 0;
+        }
+    }
+
+
+
+    
+    /*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+    -----------------------------------------------    */
+    
+    @media 
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2) {
+        
+        
+        
+    }
